@@ -5,7 +5,7 @@
  * @author 张顺(zhangshun@baidu.com)
  */
 
-include 'ChinesePinyin.php';
+include dirname(__FILE__).'/ChinesePinyin.php';
 class Pinyin_Pinyin {
     /**
      * @desc 字符串分割成顺序key单字符一维数组
